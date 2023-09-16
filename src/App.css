@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@1,300&display=swap');
 .customButton {
-  width: 225px;
+  width: 140px;
   height: 50px;
   letter-spacing: 0.5px;
   background-color: #0f864e;
@@ -9,8 +9,8 @@
   border: 1.5px solid #E0314B;
   border-radius: 5px;
   cursor: pointer;
-  display: flex;
   margin-top: 15px;
+  margin-left: 60px;
   padding: 0;
   vertical-align: middle;
   text-align: center;

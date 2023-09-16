@@ -11,7 +11,10 @@ const Register = () =>
     {
         if((userEmail.value !== '') && (userPassword.value === confirmPassword.value)){
             alert('You have successfully registered');
+            window.location.href = "/home";
             
+        }else if (event.target.name === "Login"){
+            window.location.href = "/login";
         }else{
             alert("Please give correct authentication");
         }
@@ -37,7 +40,7 @@ const Register = () =>
                 <br></br>
             </div>
             <div className='buttons'>
-                    <ButtonGroup buttons={["Register Now"]}
+                    <ButtonGroup buttons={["Register", "Login"]}
                         doSomethingAfterClick={printButtonLabel}
                     />
                 </div>
