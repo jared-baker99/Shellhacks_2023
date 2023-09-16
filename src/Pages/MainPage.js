@@ -3,6 +3,10 @@ import React from 'react';
 
 const MainPage = () =>
 {
+    var loginName;
+    var loginPassword; 
+
+    
     const doLogin = async event =>
     {
         event.preventDefault();
@@ -23,9 +27,11 @@ const MainPage = () =>
         <form onSubmit={doLogin}>
         <span id="inner-title">Login:</span><br />
         <input type="text" id="loginName" placeholder="Username"
+        ref={(c) => loginName = c}
         /><br />
         <input type="password" id="loginPassword"
-        placeholder="Password" /><br />
+        placeholder="Password" ref={(c) => loginPassword = c}
+        /><br />
         <input type="submit" id="loginButton"
         value = "Do It"
         onClick={doLogin} />
