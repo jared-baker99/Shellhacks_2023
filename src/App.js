@@ -1,17 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import MainPage from './Pages/MainPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Learn all about insurance.
-        </p>
-        <p>Click the button bellow to start your expierence</p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" index element={<MainPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
