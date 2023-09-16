@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@1,300&display=swap');
 .customButton {
   width: 150px;
   height: 50px;
@@ -25,3 +26,35 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+.mystyle{
+  height:100vh;
+  background: url(./images/login_background.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; 
+
+}
+
+.appname{
+  color: #0B990B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 100pt;
+  text-align: center;
+  padding-top: 50;
+  line-height: .5;
+
+}
+
+.slogan{
+  font-family: 'Source Sans 3', sans-serif;  font-size: 60pt;
+  text-align: center;
+  line-height: .5;
+  padding-top: 40;
+}
+
+.inner-title{
+  font-size: 100px;
+  size: 100px;
+}
