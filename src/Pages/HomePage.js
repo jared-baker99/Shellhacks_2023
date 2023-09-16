@@ -15,7 +15,7 @@ const HomePage = () =>
             title
             <div>
                 <p>Select an insurance company you want to learn about</p>
-                <div>
+                <div className='buttons'>
                     <ButtonGroup buttons={["One", "Two", "Three"]}
                         doSomethingAfterClick={printButtonLabel}
                     />
