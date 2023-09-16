@@ -6,11 +6,11 @@ const MainPage = () =>
     var loginName;
     var loginPassword; 
 
-    
     const doLogin = async event =>
     {
         event.preventDefault();
-
+        alert("YIPPIE" + loginName.value + loginPassword.value);
+        
         window.location.href = "/Home"
     }
 
