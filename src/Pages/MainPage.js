@@ -11,24 +11,27 @@ const MainPage = () =>
     }
 
     return(
-        <div className="mystyle">
+        <div className="mystyle" >
 
          <h1 className="appname">
             InsurFind
             </h1>
                 <p className="slogan">empower your future with insurance</p>
                 
+        
+        <div className="loginbox"> 
         <form onSubmit={doLogin}>
-        <span id="inner-title">PLEASE LOG IN</span><br />
+        <span id="inner-title">Login:</span><br />
         <input type="text" id="loginName" placeholder="Username"
         /><br />
         <input type="password" id="loginPassword"
         placeholder="Password" /><br />
-        <input type="submit" id="loginButton" class="buttons"
+        <input type="submit" id="loginButton"
         value = "Do It"
         onClick={doLogin} />
         </form>
         <span id="loginResult"></span>
+        </div>
         </div>
     );
 };

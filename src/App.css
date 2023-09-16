@@ -33,14 +33,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden; 
-
 }
 
 .appname{
   color: #0B990B;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  font-size: 100pt;
+  font-size: 72pt;
   text-align: center;
   padding-top: 50;
   line-height: .5;
@@ -50,11 +49,31 @@
 .slogan{
   font-family: 'Source Sans 3', sans-serif;  font-size: 60pt;
   text-align: center;
+  font-size: 36pt;
   line-height: .5;
   padding-top: 40;
 }
 
-.inner-title{
-  font-size: 100px;
-  size: 100px;
+.loginbox{
+  margin: 10;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.sumbit{
+  text-align: center;
+  align-items: center;
+}
+
+  
+
+
