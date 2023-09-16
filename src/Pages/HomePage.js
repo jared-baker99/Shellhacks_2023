@@ -7,7 +7,7 @@ const HomePage = () =>
     const printButtonLabel = (event) =>
     {
         alert(event.target.name);
-        //window.location.href = "/" +event.target.name;
+        window.location.href = "/" +event.target.name;
     }
 
     return(
