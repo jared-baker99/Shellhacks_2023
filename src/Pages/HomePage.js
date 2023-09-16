@@ -7,7 +7,9 @@ const HomePage = () =>
     const printButtonLabel = (event) =>
     {
         alert(event.target.name);
-        window.location.href = "/" +event.target.name;
+        if (event.target.name === "Register"){
+            window.location.href = "/register";
+        }
     }
 
     return(
@@ -16,7 +18,7 @@ const HomePage = () =>
             <div>
                 <p>Select an insurance company you want to learn about</p>
                 <div className='buttons'>
-                    <ButtonGroup buttons={["One", "Two", "Three"]}
+                    <ButtonGroup buttons={["Register", "Two", "Three"]}
                         doSomethingAfterClick={printButtonLabel}
                     />
                 </div>
