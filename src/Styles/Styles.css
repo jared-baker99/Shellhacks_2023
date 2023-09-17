@@ -21,6 +21,7 @@
     width: 150px;
     height: 150px;
     padding: 0;
+    line-height: 0;
 }
 
 .typetext{
@@ -40,13 +41,15 @@
 
 .insurancetext{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20pt;
+    line-height: 0;
+    font-size: 30pt;
     color: #FA8892;
     position: relative;
-    left: 65%;
-    top: 50%;
-    -ms-transform: translate(-60%, -60%);
-    transform: translate(-50%, -50%);
+    left: 100%;
+    -ms-transform: translate(-60%, 40%);
+    transform: translate(-50%, 0%);
+    text-align: vertical;
+    display: flex;
 }
 
 
