@@ -8,7 +8,8 @@ const HomePage = () =>
         <div className='UserRegister'>
             <div className='Row'>
                 <div className='Box'>
-                    <h1 className='insurancetext'>StateFarm</h1>
+                    <h1 className='insurancetext'> StateFarm</h1>
+
                     <div className='circle'>
                         <h2 className='typetext'>Car</h2>
                         <p className='moneytext'>240$</p>    
