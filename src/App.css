@@ -78,20 +78,23 @@
   align-items: center;
 }
 
-  .UserRegister{
+.UserRegister{
     background: url(./backgroundRegister.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-  }
+}
 
-  .registerInfo{
+.registerInfo{
     position: absolute;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     top: 30%;
     left: 50%;
     text-align: center;
-    line-height: .5;
-  }
+    line-height: 2;
+}
+
+
+
